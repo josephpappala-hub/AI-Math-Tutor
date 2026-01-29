@@ -1,0 +1,75 @@
+{
+  "chapter": "Number Systems",
+  "concepts": [
+    {
+      "id": "rational_1",
+      "type": "rationality",
+      "question": "Is 3/4 rational or irrational?",
+      "expected_type": "rational"
+    },
+
+
+    {
+      "id": "rational_2",
+      "type": "rationality",
+      "question": "Is -5 rational or irrational?",
+      "expected_type": "rational"
+    },
+
+
+    {
+      "id": "irrational_1",
+      "type": "rationality",
+      "question": "Is √3 rational or irrational?",
+      "expected_type": "irrational"
+    },
+
+
+    {
+      "id": "irrational_2",
+      "type": "rationality",
+      "question": "Is π rational or irrational?",
+      "expected_type": "irrational"
+    },
+
+
+    {
+      "id": "laws_of_exponents",
+      "type": "numeric",
+      "question": "Simplify 2^3 × 2^2",
+      "correct_answer": "32"
+    },
+
+
+    {
+      "id": "addition_rational",
+      "type": "numeric",
+      "question": "Add 2/3 + 4/5",
+      "correct_answer": "22/15"
+    },
+
+
+    {
+      "id": "subtraction_rational",
+      "type": "numeric",
+      "question": "Subtract 7/8 - 1/4",
+      "correct_answer": "5/8"
+    },
+
+
+    {
+      "id": "multiplication_rational",
+      "type": "numeric",
+      "question": "Multiply 3/4 × 8/9",
+      "correct_answer": "2/3"
+    },
+
+
+    {
+      "id": "division_rational",
+      "type": "numeric",
+      "question": "Divide 2/3 ÷ 4/5",
+      "correct_answer": "5/6"
+    }
+  ]
+}

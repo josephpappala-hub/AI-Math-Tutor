@@ -1,0 +1,83 @@
+{
+  "chapter": "Circles",
+  "concepts": [
+    {
+      "id": "radius_diameter",
+      "type": "concept",
+      "question": "Diameter of a circle is twice the radius. True or False?",
+      "correct_answer": "True"
+    },
+
+
+    {
+      "id": "circumference_1",
+      "type": "numeric",
+      "question": "Find circumference of circle with radius 7 cm (π = 22/7).",
+      "correct_answer": "44 cm"
+    },
+
+
+    {
+      "id": "area_1",
+      "type": "numeric",
+      "question": "Find area of circle with radius 7 cm (π = 22/7).",
+      "correct_answer": "154 cm²"
+    },
+
+
+    {
+      "id": "chord_1",
+      "type": "concept",
+      "question": "A chord equidistant from the center is the longest possible. True or False?",
+      "correct_answer": "False"
+    },
+
+
+    {
+      "id": "tangent_1",
+      "type": "concept",
+      "question": "A tangent to a circle is perpendicular to the radius at the point of contact. True or False?",
+      "correct_answer": "True"
+    },
+
+
+    {
+      "id": "secant_1",
+      "type": "concept",
+      "question": "Define a secant of a circle.",
+      "correct_answer": "A line intersecting the circle at two points."
+    },
+
+
+    {
+      "id": "arc_length",
+      "type": "numeric",
+      "question": "Find arc length of 60° sector with radius 7 cm (π = 22/7).",
+      "correct_answer": "7.33 cm"
+    },
+
+
+    {
+      "id": "segment_area",
+      "type": "concept",
+      "question": "Define a segment of a circle.",
+      "correct_answer": "Region between a chord and the corresponding arc."
+    },
+
+
+    {
+      "id": "circle_equation",
+      "type": "concept",
+      "question": "Equation of circle with center (0,0) and radius r?",
+      "correct_answer": "x^2 + y^2 = r^2"
+    },
+
+
+    {
+      "id": "sector_area",
+      "type": "numeric",
+      "question": "Area of sector with radius 7 cm and angle 60° (π = 22/7)?",
+      "correct_answer": "77/3 cm²"
+    }
+  ]
+}

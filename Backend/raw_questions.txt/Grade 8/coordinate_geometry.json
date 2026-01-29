@@ -1,0 +1,75 @@
+{
+  "chapter": "Coordinate Geometry",
+  "concepts": [
+    {
+      "id": "plot_point_1",
+      "type": "concept",
+      "question": "Plot the point (3,4) on a graph.",
+      "correct_answer": "Point at 3 units right, 4 units up"
+    },
+
+
+    {
+      "id": "distance_formula",
+      "type": "numeric",
+      "question": "Find distance between points (1,2) and (4,6).",
+      "correct_answer": "5"
+    },
+
+
+    {
+      "id": "midpoint_formula",
+      "type": "numeric",
+      "question": "Find midpoint of points (2,3) and (4,7).",
+      "correct_answer": "(3,5)"
+    },
+
+
+    {
+      "id": "slope_formula",
+      "type": "numeric",
+      "question": "Slope of line joining points (1,2) and (3,6)?",
+      "correct_answer": "2"
+    },
+
+
+    {
+      "id": "line_equation",
+      "type": "numeric",
+      "question": "Equation of line passing through (0,0) with slope 2?",
+      "correct_answer": "y = 2x"
+    },
+
+
+    {
+      "id": "parallel_check",
+      "type": "concept",
+      "question": "Are lines y = 2x + 3 and y = 2x - 5 parallel?",
+      "correct_answer": "Yes"
+    },
+
+
+    {
+      "id": "perpendicular_check",
+      "type": "concept",
+      "question": "Are lines y = 2x + 3 and y = -1/2 x + 4 perpendicular?",
+      "correct_answer": "Yes"
+    },
+
+
+    {
+      "id": "triangle_area",
+      "type": "numeric",
+      "question": "Area of triangle with vertices (0,0), (4,0), (0,3)?",
+      "correct_answer": "6"
+    },
+
+
+    {
+      "id": "quadrilateral_area",
+      "type": "numeric",
+      "question": "Area of quadrilateral with vertices (0,0), (4,0), (4,3), (0,3)?",
+      "correct_answer": "12"
+    }
+  ]
+}

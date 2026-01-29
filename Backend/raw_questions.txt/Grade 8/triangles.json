@@ -1,0 +1,59 @@
+{
+  "chapter": "Triangles",
+  "concepts": [
+    {
+      "id": "sum_angles",
+      "type": "concept",
+      "question": "Sum of angles in a triangle?",
+      "correct_answer": "180°"
+    },
+
+
+    {
+      "id": "isosceles_triangle",
+      "type": "concept",
+      "question": "Two sides equal in an isosceles triangle. True or False?",
+      "correct_answer": "True"
+    },
+
+
+    {
+      "id": "equilateral_triangle",
+      "type": "concept",
+      "question": "All sides equal in an equilateral triangle. True or False?",
+      "correct_answer": "True"
+    },
+
+
+    {
+      "id": "right_triangle",
+      "type": "concept",
+      "question": "One angle is 90° in right triangle. True or False?",
+      "correct_answer": "True"
+    },
+
+
+    {
+      "id": "area_triangle",
+      "type": "numeric",
+      "question": "Area of triangle with base 5 cm and height 4 cm?",
+      "correct_answer": "10 cm²"
+    },
+
+
+    {
+      "id": "congruence_sas",
+      "type": "concept",
+      "question": "SAS criterion for congruence. True or False?",
+      "correct_answer": "True"
+    },
+
+
+    {
+      "id": "congruence_asa",
+      "type": "concept",
+      "question": "ASA criterion for congruence. True or False?",
+      "correct_answer": "True"
+    }
+  ]
+}

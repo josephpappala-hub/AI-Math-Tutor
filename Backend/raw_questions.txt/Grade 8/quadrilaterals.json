@@ -1,0 +1,43 @@
+{
+  "chapter": "Quadrilaterals",
+  "concepts": [
+    {
+      "id": "parallelogram_1",
+      "type": "concept",
+      "question": "Opposite sides of a parallelogram are equal. True or False?",
+      "correct_answer": "True"
+    },
+
+
+    {
+      "id": "parallelogram_2",
+      "type": "concept",
+      "question": "Opposite angles of a parallelogram are equal. True or False?",
+      "correct_answer": "True"
+    },
+
+
+    {
+      "id": "rectangle_1",
+      "type": "numeric",
+      "question": "Area of rectangle with length 8 cm and breadth 5 cm?",
+      "correct_answer": "40 cm²"
+    },
+
+
+    {
+      "id": "square_1",
+      "type": "numeric",
+      "question": "Area of square with side 6 cm?",
+      "correct_answer": "36 cm²"
+    },
+
+
+    {
+      "id": "trapezium_1",
+      "type": "numeric",
+      "question": "Area of trapezium with parallel sides 10 cm, 6 cm and height 5 cm?",
+      "correct_answer": "40 cm²"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "chapter": "Data Handling",
+  "concepts": [
+    {
+      "id": "mean_1",
+      "type": "numeric",
+      "question": "Find mean of 2, 4, 6, 8, 10",
+      "correct_answer": "6"
+    },
+
+
+    {
+      "id": "median_1",
+      "type": "numeric",
+      "question": "Find median of 1, 3, 3, 6, 7, 8, 9",
+      "correct_answer": "6"
+    },
+
+
+    {
+      "id": "mode_1",
+      "type": "numeric",
+      "question": "Find mode of 1, 2, 2, 3, 3, 3, 4, 4",
+      "correct_answer": "3"
+    },
+
+
+    {
+      "id": "range_1",
+      "type": "numeric",
+      "question": "Find range of 5, 8, 12, 7, 10",
+      "correct_answer": "7"
+    },
+
+
+    {
+      "id": "frequency_table_1",
+      "type": "concept",
+      "question": "How do you find mean from a frequency table?",
+      "correct_answer": "Multiply each value by frequency, sum them, divide by total frequency"
+    },
+
+
+    {
+      "id": "cumulative_frequency",
+      "type": "concept",
+      "question": "Define cumulative frequency.",
+      "correct_answer": "Sum of frequencies of all values less than or equal to a given value"
+    },
+
+
+    {
+      "id": "histogram",
+      "type": "concept",
+      "question": "What is a histogram?",
+      "correct_answer": "Graphical representation using bars of equal width"
+    },
+
+
+    {
+      "id": "ogive",
+      "type": "concept",
+      "question": "What is an ogive?",
+      "correct_answer": "Cumulative frequency graph"
+    },
+
+
+    {
+      "id": "bar_graph",
+      "type": "concept",
+      "question": "When do we use a bar graph?",
+      "correct_answer": "To represent discrete data visually"
+    },
+
+
+    {
+      "id": "pie_chart",
+      "type": "concept",
+      "question": "When do we use a pie chart?",
+      "correct_answer": "To represent data as parts of a whole"
+    }
+  ]
+}

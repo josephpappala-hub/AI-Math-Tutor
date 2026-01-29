@@ -1,0 +1,83 @@
+{
+  "chapter": "Geometry",
+  "concepts": [
+    {
+      "id": "angle_sum_triangle",
+      "type": "concept",
+      "question": "Sum of angles in a triangle?",
+      "correct_answer": "180°"
+    },
+
+
+    {
+      "id": "angle_sum_quadrilateral",
+      "type": "concept",
+      "question": "Sum of angles in a quadrilateral?",
+      "correct_answer": "360°"
+    },
+
+
+    {
+      "id": "isosceles_triangle",
+      "type": "concept",
+      "question": "In an isosceles triangle, two sides are equal. True or False?",
+      "correct_answer": "True"
+    },
+
+
+    {
+      "id": "equilateral_triangle",
+      "type": "concept",
+      "question": "In an equilateral triangle, all angles are 60°. True or False?",
+      "correct_answer": "True"
+    },
+
+
+    {
+      "id": "right_triangle",
+      "type": "concept",
+      "question": "A right triangle has one angle 90°. True or False?",
+      "correct_answer": "True"
+    },
+
+
+    {
+      "id": "exterior_angle",
+      "type": "concept",
+      "question": "Exterior angle of a triangle = sum of two opposite interior angles. True or False?",
+      "correct_answer": "True"
+    },
+
+
+    {
+      "id": "congruence_sss",
+      "type": "concept",
+      "question": "SSS criterion for congruence. True or False?",
+      "correct_answer": "True"
+    },
+
+
+    {
+      "id": "congruence_sas",
+      "type": "concept",
+      "question": "SAS criterion for congruence. True or False?",
+      "correct_answer": "True"
+    },
+
+
+    {
+      "id": "congruence_asa",
+      "type": "concept",
+      "question": "ASA criterion for congruence. True or False?",
+      "correct_answer": "True"
+    },
+
+
+    {
+      "id": "midpoint_formula",
+      "type": "numeric",
+      "question": "Midpoint of (2,3) and (4,7)?",
+      "correct_answer": "(3,5)"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "chapter": "Algebra",
+  "concepts": [
+    {
+      "id": "simplify_1",
+      "type": "numeric",
+      "question": "Simplify: 2x + 3x",
+      "correct_answer": "5x"
+    },
+
+
+    {
+      "id": "simplify_2",
+      "type": "numeric",
+      "question": "Simplify: 4a - 2a + 7",
+      "correct_answer": "2a + 7"
+    },
+
+
+    {
+      "id": "factorize_1",
+      "type": "numeric",
+      "question": "Factorize: x^2 + 5x + 6",
+      "correct_answer": "(x+2)(x+3)"
+    },
+
+
+    {
+      "id": "factorize_2",
+      "type": "numeric",
+      "question": "Factorize: x^2 - 9",
+      "correct_answer": "(x-3)(x+3)"
+    },
+
+
+    {
+      "id": "evaluate_1",
+      "type": "numeric",
+      "question": "Evaluate 3x + 2 when x = 4",
+      "correct_answer": "14"
+    },
+
+
+    {
+      "id": "identity_1",
+      "type": "numeric",
+      "question": "Expand (x + 3)^2",
+      "correct_answer": "x^2 + 6x + 9"
+    },
+
+
+    {
+      "id": "identity_2",
+      "type": "numeric",
+      "question": "Expand (x - 5)^2",
+      "correct_answer": "x^2 - 10x + 25"
+    },
+
+
+    {
+      "id": "equation_1",
+      "type": "numeric",
+      "question": "Solve: 2x + 3 = 11",
+      "correct_answer": "x = 4"
+    },
+
+
+    {
+      "id": "equation_2",
+      "type": "numeric",
+      "question": "Solve: 3y - 5 = 10",
+      "correct_answer": "y = 5"
+    },
+
+
+    {
+      "id": "word_problem_1",
+      "type": "concept",
+      "question": "If twice a number minus 3 is 7, find the number.",
+      "correct_answer": "5"
+    }
+  ]
+}

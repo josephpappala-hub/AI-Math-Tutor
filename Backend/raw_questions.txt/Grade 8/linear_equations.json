@@ -1,0 +1,67 @@
+{
+  "chapter": "Linear Equations",
+  "concepts": [
+    {
+      "id": "one_variable_1",
+      "type": "numeric",
+      "question": "Solve 2x + 3 = 7",
+      "correct_answer": "x = 2"
+    },
+
+
+    {
+      "id": "one_variable_2",
+      "type": "numeric",
+      "question": "Solve 5y - 10 = 0",
+      "correct_answer": "y = 2"
+    },
+
+
+    {
+      "id": "two_variables_1",
+      "type": "numeric",
+      "question": "Solve x + y = 5 and x - y = 1",
+      "correct_answer": "x = 3, y = 2"
+    },
+
+
+    {
+      "id": "two_variables_2",
+      "type": "numeric",
+      "question": "Solve 2x + 3y = 12 and x - y = 2",
+      "correct_answer": "x = 3, y = 1"
+    },
+
+
+    {
+      "id": "substitution_method",
+      "type": "concept",
+      "question": "Explain substitution method.",
+      "correct_answer": "Solve one equation for a variable and substitute in the other"
+    },
+
+
+    {
+      "id": "elimination_method",
+      "type": "concept",
+      "question": "Explain elimination method.",
+      "correct_answer": "Add or subtract equations to eliminate one variable"
+    },
+
+
+    {
+      "id": "graphical_method",
+      "type": "concept",
+      "question": "Explain graphical method.",
+      "correct_answer": "Plot both lines and find intersection point"
+    },
+
+
+    {
+      "id": "word_problem_1",
+      "type": "concept",
+      "question": "If sum of two numbers is 15 and their difference is 3, find numbers.",
+      "correct_answer": "9 and 6"
+    }
+  ]
+}

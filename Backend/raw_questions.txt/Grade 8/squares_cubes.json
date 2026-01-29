@@ -1,0 +1,51 @@
+{
+  "chapter": "Squares and Cubes",
+  "concepts": [
+    {
+      "id": "square_1",
+      "type": "numeric",
+      "question": "Square of 7?",
+      "correct_answer": "49"
+    },
+
+
+    {
+      "id": "square_2",
+      "type": "numeric",
+      "question": "Square of 12?",
+      "correct_answer": "144"
+    },
+
+
+    {
+      "id": "cube_1",
+      "type": "numeric",
+      "question": "Cube of 3?",
+      "correct_answer": "27"
+    },
+
+
+    {
+      "id": "cube_2",
+      "type": "numeric",
+      "question": "Cube of 5?",
+      "correct_answer": "125"
+    },
+
+
+    {
+      "id": "square_sum",
+      "type": "numeric",
+      "question": "Sum of squares of 3 and 4?",
+      "correct_answer": "25"
+    },
+
+
+    {
+      "id": "cube_sum",
+      "type": "numeric",
+      "question": "Sum of cubes of 1,2,3?",
+      "correct_answer": "36"
+    }
+  ]
+}

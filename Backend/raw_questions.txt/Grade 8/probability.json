@@ -1,0 +1,51 @@
+{
+  "chapter": "Probability",
+  "concepts": [
+    {
+      "id": "coin_1",
+      "type": "numeric",
+      "question": "Probability of getting a head in a single coin toss?",
+      "correct_answer": "1/2"
+    },
+
+
+    {
+      "id": "coin_2",
+      "type": "numeric",
+      "question": "Probability of getting a tail in a single coin toss?",
+      "correct_answer": "1/2"
+    },
+
+
+    {
+      "id": "dice_1",
+      "type": "numeric",
+      "question": "Probability of getting 4 on a dice roll?",
+      "correct_answer": "1/6"
+    },
+
+
+    {
+      "id": "dice_2",
+      "type": "numeric",
+      "question": "Probability of getting an even number on a dice roll?",
+      "correct_answer": "1/2"
+    },
+
+
+    {
+      "id": "sum_two_dice",
+      "type": "numeric",
+      "question": "Probability of sum of two dice being 7?",
+      "correct_answer": "1/6"
+    },
+
+
+    {
+      "id": "not_event",
+      "type": "concept",
+      "question": "Probability of an event not happening if probability of event is 0.3?",
+      "correct_answer": "0.7"
+    }
+  ]
+}
