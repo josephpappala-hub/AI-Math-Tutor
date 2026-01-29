@@ -1,1 +1,129 @@
+1. Backend Framework: FastAPI
 
+Decision: Use FastAPI (Python) for the backend.
+
+Reasoning:
+
+Lightweight and fast for building APIs.
+
+Supports async requests, useful for AI calls and database queries.
+
+Easy integration with Pydantic for input validation.
+
+Well-suited for a solo developer with Python knowledge.
+
+2. Frontend: Minimal HTML + JavaScript
+
+Decision: Single-page web interface with dropdowns, input box, and output area.
+
+Reasoning:
+
+Focused on functionality over aesthetics.
+
+Easy to connect to the FastAPI backend.
+
+No need for complex frameworks (React, Vue, etc.) for a prototype.
+
+3. AI Architecture: Retrieval-Augmented Generation (RAG)
+
+Decision: Combine vector-based retrieval of concept chunks with an LLM for explanation.
+
+Reasoning:
+
+Ensures explanations are curriculum-aligned.
+
+AI never decides correctness; rules handle grading.
+
+Retrieval ensures the AI explains using actual syllabus concepts.
+
+Provides flexibility to scale for multiple grades or chapters later.
+
+4. Vector Database: Supabase
+
+Decision: Store concept embeddings in Supabase.
+
+Reasoning:
+
+Easy to set up and manage for a student project.
+
+Supports vector operations for fast similarity search.
+
+Lightweight, hosted, and free-tier friendly.
+
+Compatible with Python backend.
+
+5. AI/LLM Choice
+
+Decision: Use Hugging Face hosted models (free-tier) instead of OpenAI API.
+
+Reasoning:
+
+Avoids costs for a student developer.
+
+Models are small enough to run hosted, avoiding local resource limitations.
+
+Allows experimentation with embeddings + explanation pipeline without requiring high-spec hardware.
+
+6. Curriculum Representation
+
+Decision: Encode chapters into concept chunks (definition, reasoning, misconceptions, example patterns).
+
+Reasoning:
+
+Aligns explanations to Telangana State Board syllabus.
+
+Facilitates RAG retrieval for AI explanation.
+
+Allows expansion or revision without changing core backend.
+
+7. Correctness Verification: Rule-Based
+
+Decision: Deterministic rules to validate correctness before calling AI.
+
+Reasoning:
+
+AI should never mark answers as correct or incorrect.
+
+Avoids reliance on potentially unreliable LLM outputs.
+
+Ensures grading is predictable and safe.
+
+8. File & Folder Structure
+
+Decision:
+
+/backend — API and logic
+
+/curriculum — JSON files for chapters
+
+/examples — Sample requests and responses
+
+Reasoning:
+
+Clear separation of concerns
+
+Easy for reviewers or future developers to navigate
+
+Supports reproducibility of experiments
+
+9. Logging & Error Handling
+
+Decision: Use Python logging in the backend; basic HTTPException handling.
+
+Reasoning:
+
+Provides visibility into pipeline steps (validation, retrieval, explanation)
+
+Helps debug errors without exposing sensitive information
+
+10. Scope Limitation
+
+Decision: Stop development after building functional prototype.
+
+Reasoning:
+
+Board exam preparation required focus
+
+Prototype already demonstrates key concepts, AI pipeline, and design thinking
+
+Prioritized quality of implementation over feature expansion
