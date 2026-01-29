@@ -1,0 +1,83 @@
+{
+  "chapter": "Triangles",
+  "concepts": [
+    {
+      "id": "similarity_angle",
+      "type": "concept",
+      "question": "Two triangles are similar if their corresponding angles are equal. True or False?",
+      "correct_answer": "True"
+    },
+
+
+    {
+      "id": "similarity_side",
+      "type": "concept",
+      "question": "Two triangles are similar if their corresponding sides are in proportion. True or False?",
+      "correct_answer": "True"
+    },
+
+
+    {
+      "id": "p-ythagoras_theorem",
+      "type": "numeric",
+      "question": "In a right triangle, perpendicular = 3 cm, base = 4 cm. Find hypotenuse.",
+      "correct_answer": "5 cm"
+    },
+
+
+    {
+      "id": "area_ratio",
+      "type": "numeric",
+      "question": "If two triangles are similar and their sides are in ratio 2:3, find ratio of their areas.",
+      "correct_answer": "4:9"
+    },
+
+
+    {
+      "id": "median_formula",
+      "type": "numeric",
+      "question": "Find median of triangle with vertices A(0,0), B(4,0), C(2,4) from vertex A.",
+      "correct_answer": "(3,2)"
+    },
+
+
+    {
+      "id": "centroid_coordinates",
+      "type": "numeric",
+      "question": "Find centroid of triangle with vertices (0,0), (6,0), (0,6).",
+      "correct_answer": "(2,2)"
+    },
+
+
+    {
+      "id": "congruence_sss",
+      "type": "concept",
+      "question": "Congruence of triangles by SSS criterion. True or False?",
+      "correct_answer": "True"
+    },
+
+
+    {
+      "id": "congruence_sas",
+      "type": "concept",
+      "question": "Congruence of triangles by SAS criterion. True or False?",
+      "correct_answer": "True"
+    },
+
+
+    {
+      "id": "congruence_asa",
+      "type": "concept",
+      "question": "Congruence of triangles by ASA criterion. True or False?",
+      "correct_answer": "True"
+    },
+
+
+    {
+      "id": "height_of_triangle",
+      "type": "numeric",
+      "question": "Height of an equilateral triangle of side 6 cm?",
+      "correct_answer": "3√3 cm"
+    }
+  ]
+}

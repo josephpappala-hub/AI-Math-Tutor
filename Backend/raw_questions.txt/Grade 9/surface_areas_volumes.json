@@ -1,0 +1,83 @@
+{
+  "chapter": "Surface Areas & Volumes",
+  "concepts": [
+    {
+      "id": "cube_surface_area",
+      "type": "numeric",
+      "question": "Surface area of cube with side 5 cm?",
+      "correct_answer": "150 cm²"
+    },
+
+
+    {
+      "id": "cube_volume",
+      "type": "numeric",
+      "question": "Volume of cube with side 5 cm?",
+      "correct_answer": "125 cm³"
+    },
+
+
+    {
+      "id": "cuboid_surface_area",
+      "type": "numeric",
+      "question": "Surface area of cuboid with dimensions 4 cm, 5 cm, 6 cm?",
+      "correct_answer": "148 cm²"
+    },
+
+
+    {
+      "id": "cuboid_volume",
+      "type": "numeric",
+      "question": "Volume of cuboid with dimensions 4 cm, 5 cm, 6 cm?",
+      "correct_answer": "120 cm³"
+    },
+
+
+    {
+      "id": "cylinder_surface_area",
+      "type": "numeric",
+      "question": "Surface area of cylinder with radius 3 cm and height 7 cm (π = 22/7)?",
+      "correct_answer": "188.4 cm²"
+    },
+
+
+    {
+      "id": "cylinder_volume",
+      "type": "numeric",
+      "question": "Volume of cylinder with radius 3 cm and height 7 cm (π = 22/7)?",
+      "correct_answer": "198 cm³"
+    },
+
+
+    {
+      "id": "cone_surface_area",
+      "type": "numeric",
+      "question": "Surface area of cone with radius 3 cm and slant height 5 cm (π = 22/7)?",
+      "correct_answer": "75.4 cm²"
+    },
+
+
+    {
+      "id": "cone_volume",
+      "type": "numeric",
+      "question": "Volume of cone with radius 3 cm and height 4 cm (π = 22/7)?",
+      "correct_answer": "37.7 cm³"
+    },
+
+
+    {
+      "id": "sphere_surface_area",
+      "type": "numeric",
+      "question": "Surface area of sphere with radius 7 cm (π = 22/7)?",
+      "correct_answer": "616 cm²"
+    },
+
+
+    {
+      "id": "sphere_volume",
+      "type": "numeric",
+      "question": "Volume of sphere with radius 7 cm (π = 22/7)?",
+      "correct_answer": "1436 cm³"
+    }
+  ]
+}

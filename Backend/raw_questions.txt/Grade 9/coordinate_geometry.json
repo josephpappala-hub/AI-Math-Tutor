@@ -1,0 +1,83 @@
+{
+  "chapter": "Coordinate Geometry",
+  "concepts": [
+    {
+      "id": "distance_formula",
+      "type": "numeric",
+      "question": "Find distance between points (1,2) and (4,6).",
+      "correct_answer": "5"
+    },
+
+
+    {
+      "id": "midpoint_formula",
+      "type": "numeric",
+      "question": "Find midpoint of points (1,2) and (3,4).",
+      "correct_answer": "(2,3)"
+    },
+
+
+    {
+      "id": "section_formula",
+      "type": "numeric",
+      "question": "Point P divides line joining A(1,2) and B(5,6) in ratio 1:1. Find P.",
+      "correct_answer": "(3,4)"
+    },
+
+
+    {
+      "id": "slope_formula",
+      "type": "numeric",
+      "question": "Find slope of line joining (2,3) and (5,7).",
+      "correct_answer": "4/3"
+    },
+
+
+    {
+      "id": "equation_line",
+      "type": "numeric",
+      "question": "Find equation of line passing through (1,2) and slope 3.",
+      "correct_answer": "y - 2 = 3(x - 1)"
+    },
+
+
+    {
+      "id": "collinear_check",
+      "type": "concept",
+      "question": "Check if points (1,2), (3,6), (5,10) are collinear.",
+      "correct_answer": "Yes"
+    },
+
+
+    {
+      "id": "distance_origin",
+      "type": "numeric",
+      "question": "Distance of point (3,4) from origin.",
+      "correct_answer": "5"
+    },
+
+
+    {
+      "id": "perpendicular_slope",
+      "type": "concept",
+      "question": "Slopes of two perpendicular lines multiply to?",
+      "correct_answer": "-1"
+    },
+
+
+    {
+      "id": "parallel_slope",
+      "type": "concept",
+      "question": "Slopes of two parallel lines are equal. True or False?",
+      "correct_answer": "True"
+    },
+
+
+    {
+      "id": "equation_two_points",
+      "type": "numeric",
+      "question": "Equation of line through points (2,3) and (4,7).",
+      "correct_answer": "y - 3 = 2(x - 2)"
+    }
+  ]
+}

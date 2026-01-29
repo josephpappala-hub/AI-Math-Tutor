@@ -1,0 +1,83 @@
+{
+  "chapter": "Rational Numbers",
+  "concepts": [
+    {
+      "id": "rational_1",
+      "type": "rationality",
+      "question": "Is 2 rational or irrational?",
+      "expected_type": "rational"
+    },
+
+
+    {
+      "id": "rational_2",
+      "type": "rationality",
+      "question": "Is 0.75 rational or irrational?",
+      "expected_type": "rational"
+    },
+
+
+    {
+      "id": "irrational_1",
+      "type": "rationality",
+      "question": "Is √2 rational or irrational?",
+      "expected_type": "irrational"
+    },
+
+
+    {
+      "id": "irrational_2",
+      "type": "rationality",
+      "question": "Is π rational or irrational?",
+      "expected_type": "irrational"
+    },
+
+
+    {
+      "id": "addition_rational",
+      "type": "numeric",
+      "question": "Add 2/3 + 4/5",
+      "correct_answer": "22/15"
+    },
+
+
+    {
+      "id": "subtraction_rational",
+      "type": "numeric",
+      "question": "Subtract 7/8 - 1/4",
+      "correct_answer": "5/8"
+    },
+
+
+    {
+      "id": "multiplication_rational",
+      "type": "numeric",
+      "question": "Multiply 3/4 × 8/9",
+      "correct_answer": "2/3"
+    },
+
+
+    {
+      "id": "division_rational",
+      "type": "numeric",
+      "question": "Divide 2/3 ÷ 4/5",
+      "correct_answer": "5/6"
+    },
+
+
+    {
+      "id": "decimal_expansion",
+      "type": "numeric",
+      "question": "Express 7/8 as a decimal.",
+      "correct_answer": "0.875"
+    },
+
+
+    {
+      "id": "comparison_rational",
+      "type": "concept",
+      "question": "Which is greater: 3/4 or 2/3?",
+      "correct_answer": "3/4"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "chapter": "Quadrilaterals",
+  "concepts": [
+    {
+      "id": "parallelogram_1",
+      "type": "concept",
+      "question": "Opposite sides of a parallelogram are equal. True or False?",
+      "correct_answer": "True"
+    },
+
+
+    {
+      "id": "parallelogram_2",
+      "type": "concept",
+      "question": "Opposite angles of a parallelogram are equal. True or False?",
+      "correct_answer": "True"
+    },
+
+
+    {
+      "id": "parallelogram_3",
+      "type": "concept",
+      "question": "Diagonals of a parallelogram bisect each other. True or False?",
+      "correct_answer": "True"
+    },
+
+
+    {
+      "id": "trapezium_1",
+      "type": "numeric",
+      "question": "Area of trapezium with parallel sides 10 cm, 6 cm and height 5 cm?",
+      "correct_answer": "40 cm²"
+    },
+
+
+    {
+      "id": "rectangle_1",
+      "type": "numeric",
+      "question": "Area of rectangle with length 8 cm and breadth 5 cm?",
+      "correct_answer": "40 cm²"
+    },
+
+
+    {
+      "id": "square_1",
+      "type": "numeric",
+      "question": "Area of square with side 6 cm?",
+      "correct_answer": "36 cm²"
+    },
+
+
+    {
+      "id": "rhombus_1",
+      "type": "numeric",
+      "question": "Area of rhombus with diagonals 6 cm and 8 cm?",
+      "correct_answer": "24 cm²"
+    },
+
+
+    {
+      "id": "kite_1",
+      "type": "numeric",
+      "question": "Area of kite with diagonals 5 cm and 12 cm?",
+      "correct_answer": "30 cm²"
+    },
+
+
+    {
+      "id": "angle_sum_quadrilateral",
+      "type": "concept",
+      "question": "Sum of angles of any quadrilateral?",
+      "correct_answer": "360°"
+    },
+
+
+    {
+      "id": "properties_check",
+      "type": "concept",
+      "question": "If diagonals of a quadrilateral bisect each other, it is a parallelogram. True or False?",
+      "correct_answer": "True"
+    }
+  ]
+}

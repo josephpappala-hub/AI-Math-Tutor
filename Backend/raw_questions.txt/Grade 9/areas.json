@@ -1,0 +1,83 @@
+{
+  "chapter": "Areas",
+  "concepts": [
+    {
+      "id": "triangle_area_1",
+      "type": "numeric",
+      "question": "Find the area of a triangle with base 8 cm and height 5 cm.",
+      "correct_answer": "20 cm²"
+    },
+
+
+    {
+      "id": "triangle_area_2",
+      "type": "numeric",
+      "question": "Area of triangle with sides 3 cm, 4 cm, 5 cm using Heron's formula.",
+      "correct_answer": "6 cm²"
+    },
+
+
+    {
+      "id": "rectangle_area",
+      "type": "numeric",
+      "question": "Area of rectangle with length 10 cm and breadth 4 cm?",
+      "correct_answer": "40 cm²"
+    },
+
+
+    {
+      "id": "square_area",
+      "type": "numeric",
+      "question": "Area of square with side 7 cm?",
+      "correct_answer": "49 cm²"
+    },
+
+
+    {
+      "id": "parallelogram_area",
+      "type": "numeric",
+      "question": "Area of parallelogram with base 12 cm and height 5 cm?",
+      "correct_answer": "60 cm²"
+    },
+
+
+    {
+      "id": "trapezium_area",
+      "type": "numeric",
+      "question": "Area of trapezium with parallel sides 9 cm, 5 cm and height 4 cm?",
+      "correct_answer": "28 cm²"
+    },
+
+
+    {
+      "id": "rhombus_area",
+      "type": "numeric",
+      "question": "Area of rhombus with diagonals 8 cm and 6 cm?",
+      "correct_answer": "24 cm²"
+    },
+
+
+    {
+      "id": "kite_area",
+      "type": "numeric",
+      "question": "Area of kite with diagonals 10 cm and 8 cm?",
+      "correct_answer": "40 cm²"
+    },
+
+
+    {
+      "id": "circle_area",
+      "type": "numeric",
+      "question": "Area of circle with radius 7 cm (π = 22/7)?",
+      "correct_answer": "154 cm²"
+    },
+
+
+    {
+      "id": "sector_area",
+      "type": "numeric",
+      "question": "Area of sector with radius 7 cm and angle 60° (π = 22/7)?",
+      "correct_answer": "77/3 cm²"
+    }
+  ]
+}
