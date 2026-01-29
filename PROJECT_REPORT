@@ -1,0 +1,162 @@
+Telangana State Board Mathematics AI Tutor — Project Report
+1. Overview
+
+This project implements an AI-powered mathematics tutor for Grades 8–10 following the Telangana State Board syllabus. The goal is to provide step-by-step explanations, concept-based guidance, and mistake feedback while keeping grading rule-based and deterministic.
+
+The tutor uses Retrieval-Augmented Generation (RAG) to connect student questions to relevant curriculum concepts and generate explanations using a hosted AI model.
+
+2. Roadmap
+November 2025
+
+Planned project scope and identified key grades (8–10) and chapters.
+
+Created folder structure for backend, frontend, and curriculum JSON.
+
+December 2025
+
+Began embedding chapters into concept chunks for RAG pipeline.
+
+Wrote rule-based validation functions for basic answer correctness.
+
+Integrated Supabase vector database for storing concept embeddings.
+
+January 2026
+
+Built FastAPI backend with /check-answer endpoint.
+
+Connected frontend HTML page with dropdowns, input box, and submission button.
+
+Implemented AI explanation generation using a free hosted LLM via Hugging Face.
+
+Tested multiple sample requests for different chapters and grades.
+
+Note: Project development was paused during board exam preparation.
+
+3. Limitations
+
+AI Limitations:
+
+AI only explains concepts, does not determine correctness.
+
+Explanations depend on the hosted model; free-tier models have size and speed constraints.
+
+Curriculum Coverage:
+
+Only covers Telangana State Board syllabus for Grades 8–10.
+
+Advanced concepts (like logarithms or calculus) are not included.
+
+Deployment Constraints:
+
+Local execution may require significant RAM for embeddings if not using hosted solutions.
+
+Free-tier API models may occasionally time out or produce incomplete responses.
+
+4. Design Decisions
+
+RAG Pipeline:
+
+Separation of deterministic grading and AI explanation.
+
+Retrieval of top-K relevant concepts ensures AI explanations stay curriculum-aligned.
+
+Backend Stack:
+
+Python + FastAPI for RESTful endpoints.
+
+Supabase Vector DB for concept storage and retrieval.
+
+Frontend Stack:
+
+Simple HTML + JavaScript page for input and output.
+
+Focused on functionality over design for rapid integration and testing.
+
+Versioning and Examples:
+
+Curriculum JSON stored chapter-wise.
+
+Example requests provided in examples/ folder to demonstrate API usage.
+
+5. Architecture
+Components
+
+Frontend
+
+Collects student questions and answers.
+
+Displays correctness, explanation, and mistake feedback.
+
+Backend (FastAPI)
+
+/check-answer endpoint validates answers, retrieves concepts, and generates AI explanations.
+
+Vector Database (Supabase)
+
+Stores embeddings of curriculum concepts.
+
+Supports Top-K similarity search to find the most relevant concepts for each student question.
+
+AI / LLM Component
+
+Hosted small LLM generates explanations using retrieved concepts.
+
+Does not grade correctness.
+
+Data Flow
+Student Question
+       ↓
+Frontend sends request to FastAPI /check-answer
+       ↓
+Backend validates answer using deterministic rules
+       ↓
+Query Supabase for chapter concept embeddings
+       ↓
+Top-K relevant concepts retrieved
+       ↓
+AI generates step-by-step explanation
+       ↓
+Backend responds with JSON:
+    - correct: True/False
+    - explanation: Generated text
+    - mistake: Optional feedback
+       ↓
+Frontend displays results
+
+6. Key Challenges
+
+Integrating AI explanations while keeping grading deterministic.
+
+Handling vector embeddings and retrieval with a lightweight hosted database.
+
+Aligning explanations strictly with syllabus-approved methods, avoiding shortcuts or advanced topics.
+
+Limited local hardware resources for testing embeddings and LLM inference.
+
+7. Sample Request / Response
+
+Request:
+
+{
+  "grade": 9,
+  "chapter": "Polynomials",
+  "question": "Factorize x^2 + 5x + 6",
+  "student_answer": "x^2 + 5x + 6",
+  "correct_answer": "(x+2)(x+3)",
+  "expected_type": "polynomial"
+}
+
+
+Response:
+
+{
+  "correct": false,
+  "explanation": "The correct factorization of x^2 + 5x + 6 is (x+2)(x+3). The student’s answer shows the original polynomial without factorization. Factoring requires splitting the middle term or finding numbers that multiply to 6 and add to 5.",
+  "mistake": "Polynomial terms or signs are incorrect"
+}
+
+8. Conclusion
+
+This initiative demonstrates the integration of rule-based correctness, curriculum-aligned concepts, and AI-generated explanations. Despite resource limitations and exam-related pauses, the project successfully provides a foundation for a fully interactive AI tutor for Telangana State Board mathematics.
+
+The project also highlights leadership in design decisions, problem-solving, and structured implementation, making it suitable for showcasing initiative in academic applications.
