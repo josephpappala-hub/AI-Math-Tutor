@@ -2,171 +2,108 @@
 
 ## Overview
 
-This project is an AI-powered mathematics tutoring system designed for **Telangana State Board students (Grades 8–10)**.  
-The goal is not to simply check answers, but to **understand mathematical concepts**, identify **student misconceptions**, and provide **clear, concept-based explanations** for any curriculum-aligned question.
+This project is an AI-powered mathematics tutoring system designed for students following the Telangana State Board curriculum for Grades 8, 9, and 10. The aim of the project is to go beyond simple answer checking and instead focus on conceptual understanding, reasoning, and mistake analysis.
 
-The system uses a **Retrieval-Augmented Generation (RAG)** approach, combining:
-- Curriculum-aligned concept knowledge
-- Semantic retrieval from a vector database
-- A language model to generate explanations
+The system is built as a backend-first application that uses curriculum-aligned concept knowledge, semantic retrieval, and a language model to generate explanations for student questions.
 
-This repository represents my **first large independent technical initiative**, developed entirely on my own.
+This repository represents my first large independent technical initiative, built without prior experience in AI systems or backend development.
 
 ---
 
 ## Motivation
 
-During my studies, I noticed that:
-- Students often memorize procedures without understanding concepts
-- Most online tools only verify answers, not reasoning
-- Teachers lack scalable tools to give individualized feedback
+While studying mathematics, I noticed that most tools available to students only verify whether an answer is correct or incorrect. They do not explain why an answer is wrong or which concept a student is misunderstanding.
 
-I wanted to build a system that behaves more like a **tutor**, not an answer checker.
+I wanted to explore whether AI could be used as a tutor rather than an answer checker, especially for board-level mathematics where conceptual clarity is critical.
 
 ---
 
 ## Project Scope
 
-- Grades: **8, 9, and 10**
-- Curriculum: **Telangana State Board Mathematics**
-- Focus: **Concept understanding, reasoning steps, and misconceptions**
-- Platform: **Web-based API (backend-first design)**
+- Grades covered: 8, 9, and 10  
+- Curriculum: Telangana State Board Mathematics  
+- Focus: Concept understanding, reasoning steps, and common misconceptions  
+- Platform: Web-based backend API  
 
 ---
 
-## Architecture (High-Level)
+## High-Level Architecture
 
-Student Question
-↓
-Semantic Embedding
-↓
-Vector Database (Concept Chunks)
-↓
-Top Relevant Concepts Retrieved
-↓
-LLM Prompt (Concepts + Question)
-↓
-Generated Explanation / Feedback
+The system follows a Retrieval-Augmented Generation (RAG) approach:
 
+Student question  
+→ Semantic embedding  
+→ Vector database of curriculum concepts  
+→ Retrieval of relevant concepts  
+→ Language model prompt using retrieved concepts  
+→ Generated explanation and feedback  
 
 ---
 
 ## Repository Structure
 
 backend/
-├── main.py # FastAPI application
-├── retrieve.py # Concept retrieval logic
-├── explain.py # Explanation generation
-├── supabase_client.py # Database connection
+main.py FastAPI application
+retrieve.py Concept retrieval logic
+explain.py Explanation generation logic
+supabase_client.py Supabase database connection
 
 examples/
-├── sample_request.json
-├── sample_response.json
-└── README.md
-
+sample_request.json
+sample_response.json
 README.md
 
 
 ---
 
-## Timeline & Development Journey
+## Development Timeline
 
-### 🟢 November 2025 — Project Start
-- Chose problem statement and curriculum scope
-- Learned basics of:
-  - APIs
-  - Vector databases
-  - Embeddings
-  - Retrieval-Augmented Generation
-- Designed the system architecture independently
+November 2025  
+I began the project by defining the problem and choosing the Telangana State Board mathematics syllabus as the scope. During this phase, I learned the basics of APIs, embeddings, vector databases, and retrieval-based AI systems. I designed the system architecture independently.
 
-### 🟡 December 2025 — Core Implementation
-- Built a FastAPI backend from scratch
-- Structured curriculum concepts into retrievable units
-- Integrated a vector database (Supabase Vector)
-- Faced major challenges with:
-  - API design
-  - Type errors
-  - Embedding formats
-  - Data modeling for education
+December 2025  
+I implemented the backend using FastAPI and structured curriculum concepts into a format suitable for semantic retrieval. I integrated a vector database and worked on connecting retrieval with explanation generation. This phase involved significant trial and error.
 
-### 🔴 January–February 2026 — Debugging & Refinement
-- Resolved:
-  - API key handling
-  - Data type mismatches
-  - Retrieval vs generation logic
-- Learned to read stack traces and debug production-style errors
-- Added examples and documentation to make the project usable by others
+January–February 2026  
+Most of this period was spent debugging and refining the system. I encountered and resolved issues related to data types, API keys, embedding formats, and function mismatches. I learned how to read stack traces, debug backend errors, and refactor code to make it more maintainable.
 
-### ⏸️ March 2026 — Temporary Pause
-Development was **intentionally paused** to focus on:
-- Telangana State Board **Board Examinations**
-- Academic priorities
-
-This pause was a conscious decision to balance academics with long-term projects.
+March 2026  
+Development was paused to focus on Telangana State Board board examinations. This was a deliberate decision to prioritize academics, with plans to resume work after exams.
 
 ---
 
-## Challenges Faced (Key Learning)
+## Challenges and Learning
 
-- Understanding how **AI systems actually work end-to-end**
-- Translating textbook questions into **concept-based knowledge**
-- Debugging without mentors or prior experience
-- Managing scope as a solo developer
-- Designing for **real users**, not just code correctness
+This project required learning multiple unfamiliar concepts simultaneously, including backend development, vector databases, and AI model integration. The most difficult aspects were designing a system that reflects how students think, structuring mathematical knowledge into concepts, and debugging without external guidance.
 
-Every challenge significantly improved my:
-- Problem-solving ability
-- Technical reading skills
-- Project planning discipline
+Through this process, I developed stronger problem-solving skills, technical reading ability, and discipline in managing a long-term project independently.
 
 ---
 
-## Leadership & Initiative
+## Leadership and Initiative
 
-This project demonstrates leadership through:
-- Identifying a real educational gap
-- Designing a system independently
-- Persisting through repeated failures
-- Structuring the project for others to understand and extend
-- Documenting work clearly for non-technical reviewers
+This project demonstrates initiative through identifying a real educational problem and attempting to solve it independently. All system design, implementation, debugging, and documentation were done without templates or guided tutorials.
 
-No external templates or boilerplate projects were used.
+The repository is structured to be understandable and extendable by others, reflecting an effort to think beyond personal use and toward real-world application.
 
 ---
 
 ## Current Status
 
-- Core backend implemented
-- Concept-based retrieval functional
-- Example API usage documented
-- Project paused for exams, **planned to resume**
+The core backend is implemented, concept-based retrieval is functional, and example API usage is documented. The project is currently paused due to board examinations and is intended to be continued afterward.
 
 ---
 
-## Planned Next Steps (Post-Exams)
+## Planned Next Steps
 
-- Expand concept coverage across all chapters
-- Improve explanation quality and grading logic
-- Add a simple frontend for student use
-- Conduct pilot testing with real students/teachers
-
----
-
-## Why This Project Matters
-
-This initiative reflects my interest in:
-- Artificial Intelligence
-- Education technology
-- Systems thinking
-- Independent problem-solving
-
-More importantly, it represents my ability to **start, struggle, learn, and build** — not just succeed instantly.
+- Expand concept coverage across all chapters and grades  
+- Improve explanation quality and grading logic  
+- Add a simple frontend interface for students  
+- Test the system with real users  
 
 ---
 
 ## Author
 
-**Joseph**  
-Student | Aspiring Engineer  
-Independent Project Developer
+Joseph  
+Student and independent project developer
