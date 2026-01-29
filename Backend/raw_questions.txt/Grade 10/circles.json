@@ -1,0 +1,35 @@
+{
+  "chapter": "Circles",
+  "concepts": [
+    {
+      "id": "tangent_radius",
+      "type": "concept",
+      "question": "A tangent is perpendicular to the radius at the point of contact. True or False?",
+      "correct_answer": "True"
+    },
+
+
+    {
+      "id": "two_tangents",
+      "type": "concept",
+      "question": "Lengths of tangents from an external point are equal. True or False?",
+      "correct_answer": "True"
+    },
+
+
+    {
+      "id": "angle_between_tangent_radius",
+      "type": "numeric",
+      "question": "If a tangent makes an angle of 60° with a chord, find angle at center.",
+      "correct_answer": "Angle at center = 2×60° = 120°"
+    },
+
+
+    {
+      "id": "circle_equation",
+      "type": "concept",
+      "question": "Equation of circle with center (h,k) and radius r?",
+      "correct_answer": "(x-h)^2 + (y-k)^2 = r^2"
+    }
+  ]
+}

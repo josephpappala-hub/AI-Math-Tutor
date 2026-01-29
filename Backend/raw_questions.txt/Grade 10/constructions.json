@@ -1,0 +1,43 @@
+{
+  "chapter": "Constructions",
+  "concepts": [
+    {
+      "id": "bisector_angle",
+      "type": "concept",
+      "question": "How do you construct the bisector of an angle?",
+      "correct_answer": "Draw an arc from the vertex cutting both arms, then draw arcs from these points intersecting each other, join vertex to intersection."
+    },
+
+
+    {
+      "id": "perpendicular_bisector",
+      "type": "concept",
+      "question": "How do you construct the perpendicular bisector of a line segment?",
+      "correct_answer": "Draw arcs from both ends with radius more than half the segment, join intersection points."
+    },
+
+
+    {
+      "id": "triangle_circumcircle",
+      "type": "concept",
+      "question": "How do you construct a triangle's circumcircle?",
+      "correct_answer": "Construct perpendicular bisectors of two sides, intersection is the center, draw circle passing through vertices."
+    },
+
+
+    {
+      "id": "incircle_triangle",
+      "type": "concept",
+      "question": "How do you construct a triangle's incircle?",
+      "correct_answer": "Construct angle bisectors of two angles, intersection is center, draw circle touching all sides."
+    },
+
+
+    {
+      "id": "tangent_circle",
+      "type": "concept",
+      "question": "How do you draw a tangent to a circle from an external point?",
+      "correct_answer": "Join point to center, draw circle with radius half of distance, tangent points lie at intersection of circles."
+    }
+  ]
+}

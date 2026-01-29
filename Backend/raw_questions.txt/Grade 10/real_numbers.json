@@ -1,0 +1,51 @@
+{
+  "chapter": "Real Numbers",
+  "concepts": [
+    {
+      "id": "hcf_lcm_1",
+      "type": "numeric",
+      "question": "Find HCF of 24 and 36",
+      "correct_answer": "12"
+    },
+
+
+    {
+      "id": "hcf_lcm_2",
+      "type": "numeric",
+      "question": "Find LCM of 12 and 18",
+      "correct_answer": "36"
+    },
+
+
+    {
+      "id": "fundamental_theorem",
+      "type": "concept",
+      "question": "State Fundamental Theorem of Arithmetic.",
+      "correct_answer": "Every composite number can be expressed uniquely as a product of primes"
+    },
+
+
+    {
+      "id": "euclid_division",
+      "type": "concept",
+      "question": "State Euclid's Division Lemma.",
+      "correct_answer": "For integers a and b (b>0), ∃ q,r such that a = bq + r, 0 ≤ r < b"
+    },
+
+
+    {
+      "id": "prime_composite",
+      "type": "concept",
+      "question": "Define prime and composite numbers.",
+      "correct_answer": "Prime has exactly two divisors; composite has more than two"
+    },
+
+
+    {
+      "id": "gcd_lcm_relation",
+      "type": "concept",
+      "question": "Relation between HCF and LCM of two numbers a and b?",
+      "correct_answer": "HCF × LCM = a × b"
+    }
+  ]
+}

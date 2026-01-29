@@ -1,0 +1,43 @@
+{
+  "chapter": "Polynomials",
+  "concepts": [
+    {
+      "id": "factorization_1",
+      "type": "numeric",
+      "question": "Factorize x^2 + 5x + 6",
+      "correct_answer": "(x+2)(x+3)"
+    },
+
+
+    {
+      "id": "factorization_2",
+      "type": "numeric",
+      "question": "Factorize x^2 - 9",
+      "correct_answer": "(x-3)(x+3)"
+    },
+
+
+    {
+      "id": "factorization_3",
+      "type": "numeric",
+      "question": "Factorize 2x^2 + 7x + 3",
+      "correct_answer": "(2x+1)(x+3)"
+    },
+
+
+    {
+      "id": "remainder_theorem",
+      "type": "concept",
+      "question": "If f(x) is divided by x-a, remainder is f(a). True or False?",
+      "correct_answer": "True"
+    },
+
+
+    {
+      "id": "factor_theorem",
+      "type": "concept",
+      "question": "x-a is factor of f(x) if f(a) = 0. True or False?",
+      "correct_answer": "True"
+    }
+  ]
+}

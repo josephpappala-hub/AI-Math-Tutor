@@ -1,0 +1,51 @@
+{
+  "chapter": "Arithmetic Progressions",
+  "concepts": [
+    {
+      "id": "nth_term",
+      "type": "numeric",
+      "question": "Find 10th term of AP 2, 5, 8, 11,…",
+      "correct_answer": "a_n = a + (n-1)d = 2 + 9×3 = 29"
+    },
+
+
+    {
+      "id": "sum_n_terms",
+      "type": "numeric",
+      "question": "Sum of first 20 terms of AP 3, 7, 11,…",
+      "correct_answer": "S_n = n/2[2a + (n-1)d] = 20/2 [6 + 19×4] = 880"
+    },
+
+
+    {
+      "id": "common_difference",
+      "type": "concept",
+      "question": "Define common difference of an AP.",
+      "correct_answer": "Difference between any two consecutive terms"
+    },
+
+
+    {
+      "id": "first_term",
+      "type": "concept",
+      "question": "Define first term of an AP.",
+      "correct_answer": "The initial term of the sequence"
+    },
+
+
+    {
+      "id": "application_1",
+      "type": "numeric",
+      "question": "If a = 5 and d = 3, find 15th term.",
+      "correct_answer": "a_15 = 5 + 14×3 = 47"
+    },
+
+
+    {
+      "id": "sum_using_formula",
+      "type": "numeric",
+      "question": "Find sum of first 50 natural numbers.",
+      "correct_answer": "S_n = n(n+1)/2 = 50×51/2 = 1275"
+    }
+  ]
+}

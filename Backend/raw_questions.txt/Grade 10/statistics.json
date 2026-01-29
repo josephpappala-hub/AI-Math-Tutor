@@ -1,0 +1,51 @@
+{
+  "chapter": "Statistics",
+  "concepts": [
+    {
+      "id": "mean_1",
+      "type": "numeric",
+      "question": "Find mean of 2, 5, 7, 10, 12",
+      "correct_answer": "Mean = (2+5+7+10+12)/5 = 36/5 = 7.2"
+    },
+
+
+    {
+      "id": "median_1",
+      "type": "numeric",
+      "question": "Find median of 3, 7, 9, 15, 20",
+      "correct_answer": "Median = 9"
+    },
+
+
+    {
+      "id": "mode_1",
+      "type": "numeric",
+      "question": "Find mode of 2, 3, 3, 5, 7, 7, 7",
+      "correct_answer": "Mode = 7"
+    },
+
+
+    {
+      "id": "range_1",
+      "type": "numeric",
+      "question": "Range of 5, 9, 12, 15, 20",
+      "correct_answer": "Range = 20-5 = 15"
+    },
+
+
+    {
+      "id": "frequency_table",
+      "type": "concept",
+      "question": "How to calculate mean from a frequency table?",
+      "correct_answer": "Multiply each value by frequency, sum them, divide by total frequency"
+    },
+
+
+    {
+      "id": "cumulative_frequency",
+      "type": "concept",
+      "question": "Define cumulative frequency.",
+      "correct_answer": "Sum of frequencies of all classes up to a certain class"
+    }
+  ]
+}

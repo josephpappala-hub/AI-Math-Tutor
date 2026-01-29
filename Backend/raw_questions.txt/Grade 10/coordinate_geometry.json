@@ -1,0 +1,51 @@
+{
+  "chapter": "Coordinate Geometry",
+  "concepts": [
+    {
+      "id": "distance_formula",
+      "type": "numeric",
+      "question": "Distance between points (2,3) and (5,7)?",
+      "correct_answer": "√[(5-2)^2 + (7-3)^2] = √(9+16) = 5"
+    },
+
+
+    {
+      "id": "midpoint_formula",
+      "type": "numeric",
+      "question": "Midpoint of (1,4) and (5,8)?",
+      "correct_answer": "( (1+5)/2, (4+8)/2 ) = (3,6)"
+    },
+
+
+    {
+      "id": "slope_formula",
+      "type": "numeric",
+      "question": "Slope of line joining (2,3) and (5,7)?",
+      "correct_answer": "(7-3)/(5-2) = 4/3"
+    },
+
+
+    {
+      "id": "equation_line",
+      "type": "concept",
+      "question": "Equation of line in slope-intercept form?",
+      "correct_answer": "y = mx + c, m = slope, c = y-intercept"
+    },
+
+
+    {
+      "id": "collinearity",
+      "type": "concept",
+      "question": "How to check if three points are collinear?",
+      "correct_answer": "Check if slopes between pairs of points are equal"
+    },
+
+
+    {
+      "id": "area_triangle",
+      "type": "numeric",
+      "question": "Area of triangle with vertices (0,0),(4,0),(4,3)?",
+      "correct_answer": "1/2 × base × height = 1/2 × 4 × 3 = 6"
+    }
+  ]
+}

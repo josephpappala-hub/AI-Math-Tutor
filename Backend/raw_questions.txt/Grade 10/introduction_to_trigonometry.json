@@ -1,0 +1,51 @@
+{
+  "chapter": "Introduction to Trigonometry",
+  "concepts": [
+    {
+      "id": "trig_ratio_def_sin",
+      "type": "concept",
+      "question": "Define sin θ in a right triangle.",
+      "correct_answer": "sin θ = opposite/hypotenuse"
+    },
+
+
+    {
+      "id": "trig_ratio_def_cos",
+      "type": "concept",
+      "question": "Define cos θ in a right triangle.",
+      "correct_answer": "cos θ = adjacent/hypotenuse"
+    },
+
+
+    {
+      "id": "trig_ratio_def_tan",
+      "type": "concept",
+      "question": "Define tan θ in a right triangle.",
+      "correct_answer": "tan θ = opposite/adjacent"
+    },
+
+
+    {
+      "id": "trig_identity_1",
+      "type": "concept",
+      "question": "State the identity: sin²θ + cos²θ = ?",
+      "correct_answer": "1"
+    },
+
+
+    {
+      "id": "problem_1",
+      "type": "numeric",
+      "question": "If sin θ = 3/5, find cos θ.",
+      "correct_answer": "cos θ = √(1 - 9/25) = √16/25 = 4/5"
+    },
+
+
+    {
+      "id": "problem_2",
+      "type": "numeric",
+      "question": "If cos θ = 12/13, find tan θ.",
+      "correct_answer": "tan θ = √(1 - 144/169)/(12/13) = 5/12"
+    }
+  ]
+}

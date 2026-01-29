@@ -1,0 +1,75 @@
+{
+  "chapter": "Triangles",
+  "concepts": [
+    {
+      "id": "sum_angles",
+      "type": "concept",
+      "question": "Sum of angles in a triangle?",
+      "correct_answer": "180°"
+    },
+
+
+    {
+      "id": "types_triangle",
+      "type": "concept",
+      "question": "Name three types of triangles based on sides.",
+      "correct_answer": "Equilateral, Isosceles, Scalene"
+    },
+
+
+    {
+      "id": "types_triangle_angle",
+      "type": "concept",
+      "question": "Name three types of triangles based on angles.",
+      "correct_answer": "Acute, Right, Obtuse"
+    },
+
+
+    {
+      "id": "area_heron",
+      "type": "numeric",
+      "question": "Find area of triangle with sides 3,4,5 using Heron’s formula",
+      "correct_answer": "s = (3+4+5)/2 = 6; Area = √[6(6-3)(6-4)(6-5)] = √36 = 6"
+    },
+
+
+    {
+      "id": "area_base_height",
+      "type": "numeric",
+      "question": "Area of triangle with base 8 cm and height 5 cm",
+      "correct_answer": "Area = 1/2 × base × height = 1/2 × 8 × 5 = 20 cm²"
+    },
+
+
+    {
+      "id": "similarity_aaa",
+      "type": "concept",
+      "question": "AAA criterion for similarity. True or False?",
+      "correct_answer": "True"
+    },
+
+
+    {
+      "id": "similarity_sas",
+      "type": "concept",
+      "question": "SAS criterion for similarity. True or False?",
+      "correct_answer": "True"
+    },
+
+
+    {
+      "id": "similarity_sss",
+      "type": "concept",
+      "question": "SSS criterion for similarity. True or False?",
+      "correct_answer": "True"
+    },
+
+
+    {
+      "id": "pythagoras",
+      "type": "concept",
+      "question": "Pythagoras theorem. True or False?",
+      "correct_answer": "In right triangle, square of hypotenuse = sum of squares of other two sides. True"
+    }
+  ]
+}

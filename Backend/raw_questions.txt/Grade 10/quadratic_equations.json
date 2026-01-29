@@ -1,0 +1,67 @@
+{
+  "chapter": "Quadratic Equations",
+  "concepts": [
+    {
+      "id": "quadratic_standard",
+      "type": "concept",
+      "question": "Standard form of quadratic equation?",
+      "correct_answer": "ax^2 + bx + c = 0, a ≠ 0"
+    },
+
+
+    {
+      "id": "solve_factorization",
+      "type": "numeric",
+      "question": "Solve x^2 - 5x + 6 = 0 by factorization",
+      "correct_answer": "x^2 - 5x + 6 = (x-2)(x-3) = 0 → x = 2, 3"
+    },
+
+
+    {
+      "id": "solve_formula",
+      "type": "numeric",
+      "question": "Solve x^2 + 2x - 8 = 0 using quadratic formula",
+      "correct_answer": "x = [-2 ± √(4+32)]/2 = [-2 ± 6]/2 → x = 2, -4"
+    },
+
+
+    {
+      "id": "discriminant_1",
+      "type": "concept",
+      "question": "What is discriminant of ax^2 + bx + c?",
+      "correct_answer": "D = b^2 - 4ac"
+    },
+
+
+    {
+      "id": "nature_roots",
+      "type": "concept",
+      "question": "Nature of roots if D > 0?",
+      "correct_answer": "Two distinct real roots"
+    },
+
+
+    {
+      "id": "nature_roots_2",
+      "type": "concept",
+      "question": "Nature of roots if D = 0?",
+      "correct_answer": "Two equal real roots"
+    },
+
+
+    {
+      "id": "nature_roots_3",
+      "type": "concept",
+      "question": "Nature of roots if D < 0?",
+      "correct_answer": "Two complex roots"
+    },
+
+
+    {
+      "id": "sum_product_roots",
+      "type": "numeric",
+      "question": "If x^2 - 7x + 10 = 0, find sum and product of roots",
+      "correct_answer": "Sum = 7, Product = 10"
+    }
+  ]
+}

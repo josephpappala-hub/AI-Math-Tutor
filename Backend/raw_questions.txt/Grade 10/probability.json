@@ -1,0 +1,67 @@
+{
+  "chapter": "Probability",
+  "concepts": [
+    {
+      "id": "simple_probability_1",
+      "type": "numeric",
+      "question": "A die is rolled once. Probability of getting a 4?",
+      "correct_answer": "1/6"
+    },
+
+
+    {
+      "id": "simple_probability_2",
+      "type": "numeric",
+      "question": "A card is drawn from a pack of 52 cards. Probability of getting a king?",
+      "correct_answer": "4/52 = 1/13"
+    },
+
+
+    {
+      "id": "event_probability_1",
+      "type": "concept",
+      "question": "Define probability of an event.",
+      "correct_answer": "Number of favorable outcomes / Total number of outcomes"
+    },
+
+
+    {
+      "id": "complementary_event",
+      "type": "concept",
+      "question": "Define complementary event.",
+      "correct_answer": "An event which consists of all outcomes not in the given event"
+    },
+
+
+    {
+      "id": "mutually_exclusive",
+      "type": "concept",
+      "question": "Define mutually exclusive events.",
+      "correct_answer": "Events that cannot happen at the same time"
+    },
+
+
+    {
+      "id": "dice_sum",
+      "type": "numeric",
+      "question": "Two dice are rolled. Probability that sum = 7?",
+      "correct_answer": "6/36 = 1/6"
+    },
+
+
+    {
+      "id": "coin_toss",
+      "type": "numeric",
+      "question": "Two coins are tossed. Probability of getting two heads?",
+      "correct_answer": "1/4"
+    },
+
+
+    {
+      "id": "independent_event",
+      "type": "concept",
+      "question": "Define independent events.",
+      "correct_answer": "Occurrence of one event does not affect the other"
+    }
+  ]
+}

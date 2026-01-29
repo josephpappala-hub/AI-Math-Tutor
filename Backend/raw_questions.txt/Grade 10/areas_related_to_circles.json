@@ -1,0 +1,43 @@
+{
+  "chapter": "Areas Related to Circles",
+  "concepts": [
+    {
+      "id": "area_sector",
+      "type": "numeric",
+      "question": "Area of a sector with radius 7 cm and angle 60° (π = 22/7)?",
+      "correct_answer": "Area = (60/360) × π × 7^2 = 77/3 cm²"
+    },
+
+
+    {
+      "id": "area_segment",
+      "type": "numeric",
+      "question": "Area of segment with radius 7 cm and angle 90° (π = 22/7)?",
+      "correct_answer": "Area = (1/4 × π × 49) - (1/2 × 7^2 × sin 90°) ≈ 19.25 cm²"
+    },
+
+
+    {
+      "id": "arc_length",
+      "type": "numeric",
+      "question": "Arc length of circle with radius 7 cm and angle 60°?",
+      "correct_answer": "7.33 cm"
+    },
+
+
+    {
+      "id": "chord_length",
+      "type": "numeric",
+      "question": "Chord length of circle radius 7 cm and angle 60°?",
+      "correct_answer": "7 cm"
+    },
+
+
+    {
+      "id": "area_annulus",
+      "type": "numeric",
+      "question": "Find area of annulus with outer radius 10 cm and inner radius 7 cm.",
+      "correct_answer": "Area = π(10^2 - 7^2) = 51π cm²"
+    }
+  ]
+}
