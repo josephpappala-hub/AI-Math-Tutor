@@ -1,0 +1,8 @@
+{
+  "grade": 9,
+  "chapter": "Linear Equations in Two Variables",
+  "question": "Solve the equation x + y = 10",
+  "student_answer": "x = 4, y = 6",
+  "correct_answer": "x + y = 10",
+  "expected_type": "text"
+}
